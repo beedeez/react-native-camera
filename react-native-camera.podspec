@@ -36,7 +36,7 @@ Pod::Spec.new do |s|
     ss.dependency 'Firebase/MLVision'
     ss.dependency 'Firebase/MLVisionFaceModel'
   end
-  
+
   s.subspec "BarcodeDetectorMLKit" do |ss|
     ss.dependency 'react-native-camera/RN'
     ss.dependency 'react-native-camera/RCT'
@@ -46,7 +46,7 @@ Pod::Spec.new do |s|
 
   s.default_subspecs = "RN", "RCT"
 
-  s.preserve_paths = 'LICENSE', 'README.md', 'package.json', 'index.js'
+  s.preserve_paths = 'LICENSE', 'README.md'
 
   s.dependency 'React-Core'
 end
